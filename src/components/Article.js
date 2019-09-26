@@ -1,13 +1,14 @@
 import React from "react";
+import { BoldSpan, Para, H1, Wrapper } from "./Global";
 
 const Article = props => {
   return (
-    <div className="article">
-      <h1>{props.data.title}</h1>
-      <p>
-        <span>Explanation:</span> {props.data.explanation}
-      </p>
-    </div>
+    <Wrapper type='article'>
+      <H1 type="article">{props.data.title}</H1>
+      <Para>
+        <BoldSpan>Explanation:</BoldSpan> {props.data.explanation}
+      </Para>
+    </Wrapper>
   );
 };
 
