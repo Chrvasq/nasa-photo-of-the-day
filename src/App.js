@@ -4,6 +4,7 @@ import axios from "axios";
 import Header from "./components/Header.js";
 import Image from "./components/Image.js";
 import Article from "./components/Article.js";
+import Footer from "./components/Footer.js";
 
 function App() {
   const [data, setData] = useState();
@@ -27,6 +28,7 @@ function App() {
       <Header data={data} />
       <Image data={data} />
       <Article data={data} />
+      <Footer data={data} />
     </div>
   );
 }

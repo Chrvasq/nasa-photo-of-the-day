@@ -1,9 +1,8 @@
 import React from "react";
 
 const Article = props => {
-  console.log(props);
   return (
-    <div>
+    <div className="article">
       <h1>{props.data.title}</h1>
       <p>{props.data.explanation}</p>
     </div>
