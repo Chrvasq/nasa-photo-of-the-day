@@ -7,11 +7,15 @@
   align-items: center;
 }
 
+p {
+  padding: 12px;
+  text-align: justify;
+}
+
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
 }
 
 span {

@@ -18,7 +18,6 @@ function App() {
       .catch(err => console.log("Error: ", err));
   }, []);
 
-  console.log("Data", data);
   if (!data) {
     return <p>Loading...</p>;
   }
