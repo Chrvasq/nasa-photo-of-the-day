@@ -1,12 +1,13 @@
 import React from "react";
+import { BoldSpan, Para } from "./Global";
 
 const Footer = props => {
   return (
-    <div className='footer'>
-      <p>
-        <span>Image Credit & Copyright: </span>
+    <div className="footer">
+      <Para>
+        <BoldSpan>Image Credit & Copyright: </BoldSpan>
         {props.data.copyright}
-      </p>
+      </Para>
     </div>
   );
 };
